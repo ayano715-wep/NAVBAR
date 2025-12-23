@@ -122,7 +122,7 @@ button:hover{
     }
     .container{
         width: 70%;
-        height: 40vh;
+        height: 70vh;
         top: 70px;
     }
     .container ul li{
@@ -135,6 +135,6 @@ button:hover{
         top: 2rem;
         left:80%;
         width: 3rem;
-        font-size: 70%;
+        font-size: 60%;
     }
 }
