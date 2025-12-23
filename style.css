@@ -22,7 +22,6 @@ body{
     opacity: 0 ;
     pointer-events:none;
     z-index: 10;
-     user-select: none;  
 }
 
 
@@ -88,6 +87,11 @@ button:hover{
     padding-left:10px;
     border-radius: 25px;
 }
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 .container ul li a{
     display: block;
@@ -96,7 +100,6 @@ button:hover{
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em #000000;
-     user-select: none;  
 }
 .container ul li:hover{
     background: linear-gradient(rgba(99, 111, 8, 0.27) , rgba(9, 60, 107, 0.372));
@@ -108,11 +111,6 @@ button:hover{
 }
 .container ul li:focus-within a{
     color: #fffb00ac;
-}
-a {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 .active {
@@ -129,7 +127,7 @@ a {
     }
     .container{
         width: 70%;
-        height: 70vh;
+        height: 60vh;
         top: 70px;
     }
     .container ul li{
@@ -137,13 +135,11 @@ a {
         margin: 15px;
         height: 12%;
         padding-top: 1rem;
-         user-select: none;  
     }
     button{
         top: 2rem;
         left:80%;
         width: 3rem;
-        font-size: 60%;
+        font-size: 50%;
     }
 }
-
