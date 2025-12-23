@@ -109,6 +109,11 @@ button:hover{
 .container ul li:focus-within a{
     color: #fffb00ac;
 }
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 .active {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -141,3 +146,4 @@ button:hover{
         font-size: 60%;
     }
 }
+
